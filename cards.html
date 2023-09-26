@@ -1,0 +1,195 @@
+<!--
+    <html>
+    <head>
+        <style>
+            .product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 4px;
+}
+ 
+.product-card__image {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+ 
+.product-card__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+ 
+.product-card__description {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+ 
+.product-card__price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+ 
+.product-card__button {
+  background-color: #0077d8;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+        </style>
+    </head>
+</html>
+
+<div class="product-card">
+    <img src="ava.png" alt="Название товара" class="product-card__image">
+    <h3 class="product-card__title">Название товара</h3>
+    <p class="product-card__description">Краткое описание товара</p>
+    <span class="product-card__price">Цена товара</span>
+    <button class="product-card__button">Добавить в корзину</button>
+  </div>
+-->
+
+
+
+  <html>
+    <head>
+        <style>
+            .card_one {
+            width: 225px;
+            min-height: 350px;
+    /* Add shadows to create the "card" effect */
+            box-shadow: 12px -10px 20px 1px rgba(0,0,0,0.2);
+            transition: 0.3s;
+            border-radius: 5px;
+            border: 1px solid black;
+            }
+
+/* On mouse-over, add a deeper shadow */
+            .card_one:hover {
+            box-shadow: 12px -10px 20px 1px rgba(0,0,0,0.2);
+            }
+
+            .card_two {
+            width: 225px;
+            min-height: 350px;
+            transition: 0,3s;
+            border: 1px solid blue;
+            }
+            .card_two:hover {
+            box-shadow: 12px -10px 20px 1px rgba(0,0,0,0.2);
+            }
+
+            .card_three {
+              width: 600px;
+              min-height: 150px;
+              transition: 0,3s;
+              border: 1px solid red;
+            }
+            
+            .card_three:hover {
+              box-shadow: 12px -10px 20px 1px rgba(0,0,0,0.2);;
+            }
+/* Add some padding inside the card container */
+            .container {
+            padding: 2px 16px;
+            display: flex;
+            }
+            .container2 {
+            padding: 2px 16px;
+            }
+
+            .card__add {
+             display: block;
+             width: 50%;
+             font-weight: 400;
+             font-size: 17px;
+             color: #3d3472;
+             padding: 10px;
+             text-align: center;
+             border: 1px solid #3d3472;
+             border-radius: 4px;
+             cursor: pointer; 
+             transition: 0.2s;
+             margin-top: auto; 
+            }
+
+            .card__add:hover {
+              border: 1px solid #82d1e2;
+              background-color: #82d1e2;
+              color: #fff;
+            }
+
+            .meow {
+              display: inline;
+              vertical-align: middle;
+              float: left;
+            }
+        </style>
+    </head>
+    
+</html>
+
+
+
+<div class="card_one">
+    <div class="container">
+        <h4>CARD</h4>
+    </div>
+    <hr>
+    <!--<img src="ava.png" alt="Avatar" style="width:100px;height:100px;">-->
+    <div class="container">
+      <p style="text-align: justify;">Карточки с товарами — неотъемлемая часть любого 
+        интернет-магазина. Они позволяют в удобном виде 
+        презентовать товары или услуги потенциальному 
+        клиенту. В этой статье мы сделаем верстку 
+        карточек товаров, выведем их в сетку, а также 
+        адаптируем сетку под мобильные устройства.</p>
+    </div>
+    <div pos>
+      <button class="card__add" style="width:80px;height:40px;">Далее</button>
+    </div>
+</div>  
+<br>
+
+<div class="card_two">
+  <div class="container2">
+    <img src="ava.png" alt="картинка" style="width:100px;height:100px;">
+  </div>
+  <div class="container2">
+    <h1>Headder</h1>
+    <p style="text-align: justify;">Карточки с товарами — неотъемлемая часть любого 
+      интернет-магазина. Они позволяют в удобном виде 
+      презентовать товары или услуги потенциальному 
+      клиенту. В этой статье мы сделаем верстку 
+      карточек товаров, выведем их в сетку, а также 
+      адаптируем сетку под мобильные устройства.</p>
+    </div>
+</div>
+<br>
+
+<div class="card_three">
+  <div class="container">
+    <img src="ava.png" alt="картинка" style="width:100px;height:100px; vertical-align: middle;"> 
+    <div class="meow">
+    <h1>Headder</h1>
+    <p style="text-align: justify;">Карточки с товарами — неотъемлемая часть любого 
+      интернет-магазина. Они позволяют в удобном виде 
+      презентовать товары или услуги потенциальному 
+      клиенту. В этой статье мы сделаем верстку 
+      карточек товаров, выведем их в сетку, а также 
+      адаптируем сетку под мобильные устройства.</p>
+    <div pos>
+        <button class="card__add" style="width:80px;height:40px;">Далее</button>
+    </div>
+      
+    </div>
+    
+  </div>
+  
+  
+</div>
